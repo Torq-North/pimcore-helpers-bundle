@@ -1,12 +1,12 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle;
+namespace TorqNorth\PimcoreHelpersBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
 use Pimcore\Extension\Bundle\Traits\BundleAdminClassicTrait;
 
-class TorqPimcoreHelpersBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
+class TorqNorthPimcoreHelpersBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
 {
     use BundleAdminClassicTrait;
 

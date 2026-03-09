@@ -1,9 +1,9 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\Tests\Service\Utility;
+namespace TorqNorth\PimcoreHelpersBundle\Tests\Service\Utility;
 
-use Torq\PimcoreHelpersBundle\Service\Utility\ArrayUtils;
-use Torq\PimcoreHelpersBundle\Tests\Base\PimcoreTestBootstrapped;
+use TorqNorth\PimcoreHelpersBundle\Service\Utility\ArrayUtils;
+use TorqNorth\PimcoreHelpersBundle\Tests\Base\PimcoreTestBootstrapped;
 
 class ArrayUtilsTest extends PimcoreTestBootstrapped
 {

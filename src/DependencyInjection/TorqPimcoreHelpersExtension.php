@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\DependencyInjection;
+namespace TorqNorth\PimcoreHelpersBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

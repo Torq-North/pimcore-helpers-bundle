@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\Service\Normalizer;
+namespace TorqNorth\PimcoreHelpersBundle\Service\Normalizer;
 
 use InvalidArgumentException;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;

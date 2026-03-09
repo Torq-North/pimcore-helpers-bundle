@@ -1,28 +1,28 @@
 {
-    "name": "torq/pimcore-helpers-bundle",
-    "type": "pimcore-bundle",
-    "license": "proprietary",
-    "version": "1.3.0",
-    "require": {
-        "pimcore/pimcore": "^11.0",
-        "symfony/serializer-pack": "^v1.3.0",
-        "phpdocumentor/reflection-docblock": "^5.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "Torq\\PimcoreHelpersBundle\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Torq\\PimcoreHelpersBundle\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "pimcore": {
-            "bundles": [
-                "Torq\\PimcoreHelpersBundle\\TorqPimcoreHelpersBundle"
-            ]
-        }
+  "name": "torqnorth/pimcore-helpers-bundle",
+  "type": "pimcore-bundle",
+  "license": "proprietary",
+  "version": "1.3.0",
+  "require": {
+    "pimcore/pimcore": "^11.0",
+    "symfony/serializer-pack": "^v1.3.0",
+    "phpdocumentor/reflection-docblock": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "TorqNorth\\PimcoreHelpersBundle\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TorqNorth\\PimcoreHelpersBundle\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "TorqNorth\\PimcoreHelpersBundle\\TorqNorthPimcoreHelpersBundle"
+      ]
+    }
+  }
 }

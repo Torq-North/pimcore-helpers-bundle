@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\DependencyInjection;
+namespace TorqNorth\PimcoreHelpersBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('torq_pimcore_helpers');
+        $treeBuilder = new TreeBuilder('torq_north_pimcore_helpers');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

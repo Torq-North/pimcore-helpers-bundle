@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\Tests\Base;
+namespace TorqNorth\PimcoreHelpersBundle\Tests\Base;
 
 use PHPUnit\Framework\TestCase;
 use Pimcore\Tool;

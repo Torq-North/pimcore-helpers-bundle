@@ -11,12 +11,12 @@ services:
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    Torq\PimcoreHelpersBundle\Service\:
+    TorqNorth\PimcoreHelpersBundle\Service\:
         resource: '../src/Service'
         public: true
 
 # add more services, or override services that need manual wiring
-#    Torq\PimcoreHelpersBundle\ExampleClass:
+#    TorqNorth\PimcoreHelpersBundle\ExampleClass:
 #        arguments:
 #            - "@service_id"
 #            - "plain_value"

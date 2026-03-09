@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\Service\Repository;
+namespace TorqNorth\PimcoreHelpersBundle\Service\Repository;
 
 use Pimcore\Model\Asset;
 use Pimcore\Model\Asset\Service;

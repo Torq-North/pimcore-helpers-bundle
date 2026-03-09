@@ -1,6 +1,6 @@
 <?php
 
-namespace Torq\PimcoreHelpersBundle\Service\Utility;
+namespace TorqNorth\PimcoreHelpersBundle\Service\Utility;
 
 use Carbon\Carbon;
 
