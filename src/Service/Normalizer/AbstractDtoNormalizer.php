@@ -38,7 +38,7 @@ abstract class AbstractDtoNormalizer implements NormalizerInterface
         }
     }
 
-    public function normalize(mixed $object, ?string $format = null, array $context = [])
+    public function normalize(mixed $object, ?string $format = null, array $context = []): \ArrayObject|array|string|int|float|bool|null
     {
         $dto = $this->toDto($object);
         if (is_array($dto)) {
